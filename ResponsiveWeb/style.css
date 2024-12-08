@@ -1,0 +1,91 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image:url(bgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.header{
+     color: rgb(163, 3, 99);  
+}
+
+.header h1 span{
+
+    color: rgb(81, 0, 143);
+}
+
+.header h1{
+
+    font-family: Games;
+}
+
+h1{
+
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 60px;
+    
+}
+
+
+.txt{
+
+    color: aliceblue;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+.icons a{
+    text-decoration: none;
+    margin: 10px;
+    transition: transform 0.5s;
+}
+
+.icons{
+    margin-top: 500px;
+    margin-left: 85px;
+    font-size: 50px;
+    
+}
+
+.icons i:hover{
+ color: blueviolet;
+ transform: translateY(-7px);
+}
+
+.shop{
+
+    margin-left: 1235px;
+    margin-top: -100px;
+}
+.btn{
+
+    font-size: 30px;
+    background: rgb(164, 1, 164);
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(234, 64, 93),
+    0 0 20px rgb(234, 64, 93);
+
+}
+
+button:hover{
+
+box-shadow: 0 0 10px rgb(234, 64, 93),
+0 0 25px rgb(234, 64, 93),0 0 50px rgb(234, 64, 93),
+0 0 100px rgb(234, 64, 93);
+
+}
